@@ -2,7 +2,7 @@ void main() {
   int x = 80;
   int y = 40;
   String greatings = "Hello";
-  List<String> fruits = ["Apple", "Bananas", "Oranges", "Guava"];
+  //List<String> fruits = ["Apple", "Bananas", "Oranges", "Guava"];
 
   void addTwo() {
     int sum = x + y;
@@ -29,15 +29,15 @@ void main() {
     print("The length of the string is $strlng");
   }
 
-  dynamic getFirstElement() {
+  /*dynamic getFirstElement(List fruits) {
     int firstElement = getFirstElement(fruits);
     print("The first element in the list is $firstElement");
-  }
+  }*/
 
   addTwo();
   subtractTwo();
   multiplyTwo();
   divideTwo();
   stringLength();
-  getFirstElement();
+  // getFirstElement();
 }
